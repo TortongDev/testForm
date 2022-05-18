@@ -7,6 +7,6 @@
     <title></title>
 </head>
 <body>
-    session_set_cookie_params
+    
 </body>
 </html>
