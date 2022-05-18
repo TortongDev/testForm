@@ -1,0 +1,23 @@
+html , body {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+}
+.wrapper-form {
+    width: 40%;
+    height: fit-content;
+}
+.form-grp{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 10px;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    margin: 5px;
+}
