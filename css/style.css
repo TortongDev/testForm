@@ -1,23 +1,44 @@
-html , body {
-    margin: auto;
-    box-sizing: border-box;
+html,body{
     padding: 0;
+    margin: 0 auto;
     height: 100%;
 }
-.wrapper-form {
-    width: 40%;
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+section.wrapper-form {
+    width: 500px;
     height: fit-content;
 }
-.form-grp{
+form .form-grp {
     display: grid;
-    grid-template-columns: 150px 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 100px 1fr;
 }
-label {
+form input[type=text],input[type=date]{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid;
+    border-color: silver;
+    outline: none;
+    font-size: 16pt;
+}
+.form-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+} 
+button[type="submit"] {
+    cursor: pointer;
+    margin: 10px;
+    color: aliceblue;
+    padding: 10px;
+    background-color: green;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
 }
-input {
-    margin: 5px;
+button[type="submit"]:hover{
+    opacity: 0.5;
 }
